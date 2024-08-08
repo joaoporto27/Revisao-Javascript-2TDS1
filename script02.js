@@ -7,8 +7,8 @@ let batatas = 0;
 let nome = "Kevin"
 
 for (let i = 1; i <= quantidadeIngressos; i++) {
-    if(i % 3 === 0)
-   batatas++;    
-} 
+    if (i % 3 === 0)
+        batatas++;
+}
 
-console.log("Olá " + nome + " você ganhou " + batatas + " de porções de batata frita!" );
+console.log("Olá " + nome + " você ganhou " + batatas + " de porções de batata frita!");
